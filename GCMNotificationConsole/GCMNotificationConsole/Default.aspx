@@ -14,7 +14,7 @@
                 Project API Key (Google GCM Service):
             </div>
             <div class="field">
-                <asp:TextBox ID="ApiKey" runat="server" Width="1200px">AIzaSyDWlEU7Khwv6hVdrmU0EioVYRat8PCO8K8</asp:TextBox>
+                <asp:TextBox ID="ApiKey" runat="server" Width="1200px">AIzaSyClnMZe7vhxQnKVY5BbV1O1RR4N9iBJEho</asp:TextBox>
             </div>
         </div>
         <div class="container">
