@@ -1,0 +1,18 @@
+﻿body, input
+{
+    font-family: Consolas;
+    font-size: 12px;
+}
+.content
+{
+    border: 1px solid #999;
+    padding: 10px;
+}
+.container
+{
+    margin: 3px auto;
+}
+.label, .field, .response
+{
+    display: inline-block;
+}
