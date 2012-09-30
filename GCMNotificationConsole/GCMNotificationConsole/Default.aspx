@@ -30,7 +30,7 @@
                 Device Registration ID:
             </div>
             <div class="field">
-                <asp:TextBox ID="DeviceId" runat="server" Width="1200px">APA91bHHKdouBAH-JrrQTyLhmS8PAtdvJ8pEvXsr6p0EtodMQxMGKi-djxBbT8CiDCOZYkizp4JDchBQezHS-qpE1rYOPYvIvbebj3CnRSSpxwFYDYDJA7HmKHqiHUJukugGjLU3IO-xmKwrap8OfROTY5AkFwTWBg</asp:TextBox>
+                <asp:TextBox ID="DeviceId" runat="server" Width="1200px"></asp:TextBox>
             </div>
         </div>
         <div class="container">
