@@ -1,4 +1,4 @@
-﻿Imports System.Net
+Imports System.Net
 Imports System.Net.Security
 Imports System.IO
 Imports System.Security.Cryptography.X509Certificates
