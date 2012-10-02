@@ -21,9 +21,8 @@ Public Class _Default
         request.Method = "POST"
         request.ContentType = "application/x-www-form-urlencoded"
         request.Headers.Add(String.Format("Authorization: key={0}", ApiKey.Text))
-	Dim message = String.Format("{ ""message"" : ""{0}"" }", Payload.Text)
         'Dim collaspeKey As String = Guid.NewGuid().ToString("n")
-        'Dim postData As String = String.Format("registration_id={0}&data.payload={1}&collapse_key={2}", DeviceId.Text, message, collaspeKey)
+        'Dim postData As String = String.Format("registration_id={0}&data.payload={1}&collapse_key={2}", DeviceId.Text, Payload.Text, collaspeKey)
         Dim postData As String = String.Format("registration_id={0}&data.payload={1}", DeviceId.Text, Payload.Text)
         Dim byteArray As Byte() = Encoding.UTF8.GetBytes(postData)
         request.ContentLength = byteArray.Length
