@@ -19,10 +19,10 @@
         </div>
         <div class="container">
             <div class="label">
-                Payload Data
+                Notification Message
             </div>
             <div class="field">
-                <asp:TextBox ID="Payload" runat="server" Width="1200px">{ "message" : "Hi! This is a message", "msgcnt" : "2345" }</asp:TextBox>
+                <asp:TextBox ID="Payload" runat="server" Width="1200px">{ "message" : "<YOUR MESSAGE HERE>" }</asp:TextBox>
             </div>
         </div>
         <div class="container">
