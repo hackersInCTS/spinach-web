@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Parse.Data.UI", "Parse.Data.UI\Parse.Data.UI.vbproj", "{153F1B97-C802-4646-A108-B8857D81DD69}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Parese.Data.UI.Tests", "Parese.Data.UI.Tests\Parese.Data.UI.Tests.vbproj", "{8BC5CF92-89CA-4EFA-B961-B480ADB35E44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153F1B97-C802-4646-A108-B8857D81DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153F1B97-C802-4646-A108-B8857D81DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153F1B97-C802-4646-A108-B8857D81DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153F1B97-C802-4646-A108-B8857D81DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC5CF92-89CA-4EFA-B961-B480ADB35E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC5CF92-89CA-4EFA-B961-B480ADB35E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC5CF92-89CA-4EFA-B961-B480ADB35E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC5CF92-89CA-4EFA-B961-B480ADB35E44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
