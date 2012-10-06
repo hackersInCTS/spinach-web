@@ -666,8 +666,12 @@ $(document).ready(function () {
         }
     });
 
-    $('#popupInvoker').addSwipeEvents().bind('swipeup', function (evt, touch) {
-        $("#popupPanel").popup("open");
+    $('#popupInvoker, #popupPanel').addSwipeEvents().bind('swipe', function (evt, touch) {
+        if (touch.eventType === "swipeup") {
+            $("#popupPanel").popup("open");
+        } else if (touch.eventType === "swipedown") {
+            $("#popupPanel").popup("close");
+        }
     });
 
     $("#pageFooter").on({
