@@ -670,7 +670,7 @@ $(document).ready(function () {
         $("#popupPanel").popup("open");
     });
 
-    $("#popupInvoker").on({
+    $("#pageFooter").on({
         vmouseover: function () {
             document.addEventListener('touchmove', Swoosh.Popup.preventDefault, false);
         },
