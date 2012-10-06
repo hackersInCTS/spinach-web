@@ -619,6 +619,14 @@ Swoosh.GCM = (function ($) {
     };
 }(jQuery));
 
+Swoosh.Popup = (function ($) {
+    return {
+        preventDefault: function (touchEvent) {
+            touchEvent.preventDefault();
+        }
+    }
+}(jQuery));
+
 //Page specific initialize events
 $(document).on("pageshow", "#map", function () {
     Swoosh.Map.initialize();
@@ -660,9 +668,14 @@ $(document).ready(function () {
 
     $('#popupInvoker').addSwipeEvents().bind('swipeup', function (evt, touch) {
         $("#popupPanel").popup("open");
-    })
+    });
 
-    document.addEventListener('touchmove', function (touchEvent) {
-        touchEvent.preventDefault();
-    }, false);
+    $("#popupInvoker").on({
+        vmouseover: function () {
+            document.addEventListener('touchmove', Swoosh.Popup.preventDefault, false);
+        },
+        vmouseout: function () {
+            document.removeEventListener('touchmove', Swoosh.Popup.preventDefault, false);
+        }
+    });
 });
