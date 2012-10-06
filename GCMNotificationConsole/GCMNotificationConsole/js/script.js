@@ -661,4 +661,8 @@ $(document).ready(function () {
     $('#popupInvoker').addSwipeEvents().bind('swipeup', function (evt, touch) {
         $("#popupPanel").popup("open");
     })
+
+    document.addEventListener('touchmove', function (touchEvent) {
+        touchEvent.preventDefault();
+    }, false);
 });
